@@ -9,12 +9,10 @@ public class Obiekt {
 	int Velx = 1;
 	int Vely = 100;
 	int y = 0;
-	public Obiekt() {
-		// TODO Auto-generated constructor stub
-	}
+	public Obiekt() {}
 	 public void paint(Graphics g){
-			g.setColor(Color.RED);
+		g.setColor(Color.RED);
 	        g.fillRect(300,Vely,25,25);
 	
-}
+	}
 }
