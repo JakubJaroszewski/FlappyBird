@@ -74,9 +74,7 @@ public class start1 extends JFrame {
 		przerwa = new JLabel("           						 ");
 		GridBagConstraints c = new GridBagConstraints();
 		GridBagConstraints d = new GridBagConstraints();
-		//setLayout(new BorderLayout(10,10));
 		panel2.setLayout(new GridLayout(10,1));
-		//panel1.setLayout(new GridLayout(1,30));
 		panel1.setLayout(new BorderLayout(3,1));
 		add(BorderLayout.NORTH,panel1);
 		add(BorderLayout.CENTER,panel2);
@@ -99,7 +97,6 @@ public class start1 extends JFrame {
 		ActionListener a = new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				se.setFile(clickSound);
 				se.play();		
 			}
